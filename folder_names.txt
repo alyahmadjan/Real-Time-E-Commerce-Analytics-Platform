@@ -1,0 +1,29 @@
+📁 Real-Time-E-Commerce-Analytics-Platform/
+├── 📁 data/
+│   ├── raw_data/ (source data files)
+│   ├── processed_data/ (cleaned data)
+│   └── database/ (SQLite database)
+├── 📁 scripts/
+│   ├── extract_data.py (API integration, data collection)
+│   ├── transform_data.py (cleaning, feature engineering)
+│   ├── load_data.py (database loading)
+│   └── scheduler.py (automation script)
+├── 📁 analysis/
+│   ├── exploratory_analysis.ipynb
+│   ├── predictive_modeling.ipynb
+│   └── statistical_insights.ipynb
+├── 📁 dashboards/
+│   ├── power_bi_report.pbix
+│   ├── looker_studio_dashboard/ (link to embedded report)
+│   └── excel_dashboard.xlsx
+├── 📁 sql/
+│   ├── schema.sql (database structure)
+│   └── queries.sql (analytical queries)
+├── 📁 documentation/
+│   ├── README.md (comprehensive project overview)
+│   ├── DATA_DICTIONARY.md (column definitions)
+│   ├── SETUP_GUIDE.md (installation instructions)
+│   └── INSIGHTS_SUMMARY.txt (STAR methodology writeup)
+├── requirements.txt (Python dependencies)
+├── config.py (configuration management)
+└── .env.example (environment variables template)
