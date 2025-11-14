@@ -1,0 +1,7 @@
+python-dotenv
+requests
+pandas
+apscheduler
+gspread
+gspread_dataframe
+oauth2client
